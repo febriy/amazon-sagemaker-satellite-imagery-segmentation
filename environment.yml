@@ -1,5 +1,6 @@
 name: gdal_python36
 channels:
+  - 'https://repo.continuum.io/pkgs/free'
   - conda-forge/label/gcc7
   - defaults
 dependencies:
@@ -176,8 +177,6 @@ dependencies:
     - prompt-toolkit==3.0.6
     - protobuf==3.13.0
     - protobuf3-to-dict==0.1.5
-    - ptyprocess==0.6.0
-    - pygments==2.6.1
     - python-dateutil==2.8.1
     - pyzmq==19.0.2
     - s3transfer==0.3.3
@@ -187,7 +186,5 @@ dependencies:
     - sklearn==0.0
     - smdebug-rulesconfig==0.1.4
     - threadpoolctl==2.1.0
-    - tornado==6.0.4
     - wcwidth==0.2.5
 prefix: /home/ec2-user/SageMaker/custom-miniconda/miniconda/envs/gdal_python36
-
